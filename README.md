@@ -1,9 +1,10 @@
 # Agent Quickstart - Python
 
-Demonstrates connecting to an Azure AI Foundry agent for voice conversations. The agent handles model selection, instructions, and tools, with support for proactive greetings.
+Demonstrates connecting to an Microsoft Foundry agent for voice conversations. The agent handles model selection, instructions, and tools, with support for proactive greetings.
 
 **Key Features:**
-- Azure AI Foundry agent integration
+- Microsoft Foundry agent integration
+- Shows integration with both Foundry Agents and Foundry V2 Agents
 - Proactive greeting support
 - Azure authentication (required)
 - Agent-managed tools and instructions
@@ -18,7 +19,7 @@ All samples require:
 
 ### Azure Resources
 
-- [Azure AI Foundry project](https://learn.microsoft.com/azure/ai-studio/how-to/create-projects) with a deployed agent
+- [Microsoft Foundry project](https://learn.microsoft.com/azure/ai-studio/how-to/create-projects) with a deployed agent
 - [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli) for authentication
 
 ## Getting Started
@@ -106,7 +107,7 @@ See the [Azure Neural Voice Gallery](https://speech.microsoft.com/portal/voicega
 
 ### Agent Quickstart Flow
 ```
-User Voice → Microphone → PyAudio → VoiceLive SDK → Azure AI Foundry Agent
+User Voice → Microphone → PyAudio → VoiceLive SDK → Microsoft Foundry Agent
                                                               ↓
 User Hears ← Speakers ← PyAudio ← VoiceLive SDK ← Agent Response
 ```
@@ -154,16 +155,16 @@ All samples support these options (use `--help` for full details):
 - `--endpoint`: Azure VoiceLive endpoint URL
 - `--voice`: Voice for the assistant (default varies by sample)
 - `--verbose` or `-v`: Enable detailed logging
-- `--agent-id`: Azure AI Foundry agent ID
-- `--project-name`: Azure AI Foundry project name
+- `--agent-id`: Microsoft Foundry agent ID
+- `--project-name`: Microsoft Foundry project name
 
 **agentsv2-quickstart.py**
 
 - `--endpoint`: Azure VoiceLive endpoint URL
 - `--voice`: Voice for the assistant (default varies by sample)
 - `--verbose` or `-v`: Enable detailed logging
-- `--agent-name`: Azure AI Foundry agent name
-- `--project-name`: Azure AI Foundry project name
+- `--agent-name`: Microsoft Foundry agent name
+- `--project-name`: Microsoft Foundry project name
 
 
 ## Requirements
