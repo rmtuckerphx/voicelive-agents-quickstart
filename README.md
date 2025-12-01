@@ -2,6 +2,10 @@
 
 Demonstrates connecting to an Microsoft Foundry agent for voice conversations. The agent handles model selection, instructions, and tools, with support for proactive greetings.
 
+**Video:**
+Video walk-through of quickstart including sample Foundry V1 & V2 Agents
+https://youtu.be/7oM8rhOKI54
+
 **Key Features:**
 - Microsoft Foundry agent integration
 - Shows integration with both Foundry Agents and Foundry V2 Agents
